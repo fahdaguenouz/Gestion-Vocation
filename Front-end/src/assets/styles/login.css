@@ -1,0 +1,99 @@
+body {
+    background: #f3f3f3;
+  }
+  .blmd-wrapp {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    height: auto;
+    margin-top: 10vh;
+    background: #fff;
+    padding: 1em 0;
+    position: relative;
+    transition: height 0.5s;
+  }
+   
+  .blmd-wrapp .blmd-continer {
+    padding: 15px;
+    height: auto;
+    overflow: hidden;
+  }
+  .blmd-wrapp .blmd-continer form {
+    max-height: auto;
+    transition: all 0.5s;
+  }
+  .blmd-wrapp .blmd-continer form > h1 {
+    padding: 15px 0 15px 30px;
+    margin-right: 15px;
+    margin-left: -30px;
+    position: relative;
+    color: #3f51b5;
+   
+  }
+   
+  .blmd-wrapp .blmd-continer form#login-form > h1 {
+    border-left: 17px solid #3f51b5;
+  }
+  .btn-blmd.btn.btn-success {
+    background: #3f51b5;
+    color: #fff;
+  }
+  .ripple-effect {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .blmd-form {
+    margin: 3rem 0;
+    position: relative;
+    width: 100%;
+  }
+  .blmd-form .blmd-line {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    vertical-align: top;
+  }
+  .blmd-form .form-control {
+    box-shadow: none;
+    border-radius: 0;
+    position: relative;
+    background: 0 0;
+    z-index: 1;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0;
+  }
+   
+  .col-md-4 {
+      margin: 0 auto;
+  }
+  .form-control {
+      height: 45px;
+  }
+  button.btn.btn-blmd.ripple-effect.btn-lg.btn-block {
+      width: 100%;
+    border-radius: 20px;
+  }
+  .col-md-12 {
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+   
+   
+   
+   
+  .inp{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 280px;
+    border-radius: 3px;
+    overflow: hidden}

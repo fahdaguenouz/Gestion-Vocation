@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.custom-navbar-color {
+  background-color: #004f83 !important; /* Custom navbar background color */
+}
+.custom-navbar-color .navbar-brand,
+.custom-navbar-color .navbar-nav .nav-link {
+  color: #ffffff !important; /* Ensures the text color is white or any color of your choice */
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item .bx {
+  margin-right: 10px; /* Adjust the space between the icon and the text */
+}
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.offcanvas-body > .flex-grow-1 {
+  flex-grow: 1; /* This will push the logout div to the bottom */
+}
+#offcanvasDarkNavbar {
+  width: 250px; /* Or any other width */
+}
+.offcanvas .nav-link {
+  font-weight: bold; /* Makes the text bold */
+   /* Increases the font size; adjust as needed */
+}

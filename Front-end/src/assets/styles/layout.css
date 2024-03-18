@@ -1,0 +1,40 @@
+.app-container {
+  display: flex;
+  flex-direction: column; /* Ensures vertical layout */
+}
+
+.sidebar {
+  /* Assuming your Sidebar component has its own internal styling for width/height */
+  margin-bottom: 1rem; /* Adds space below the sidebar */
+}
+
+.main-content {
+  /* Additional styles to ensure it's visually distinct and properly spaced */
+  width: 100%; /* Ensures it takes full available width */
+  padding: 1rem; /* Adds some padding around the content for spacing */
+}
+
+footer {
+  margin-top: 1rem; /* Adds space above the footer, if needed */
+}
+@media (min-width: 2200px) {
+  .app-container {
+    flex-direction: row; /* Horizontal layout on larger screens */
+  }
+
+  .sidebar {
+    margin-bottom: 0; /* Reset bottom margin */
+    /* Define width or flex-basis for the sidebar as necessary */
+    width: 250px; /* Example fixed width for the sidebar */
+  }
+
+  .main-content {
+    flex-grow: 1; /* Allows the main content to fill the remaining space */
+    padding: 1rem;
+  }
+
+  footer {
+    /* Adjust footer styling for larger screens as necessary */
+    margin-top: 0; /* Reset top margin if needed */
+  }
+}
